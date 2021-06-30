@@ -118,9 +118,6 @@
                             <Skills title="C#" stars="1" />
                             <Skills title="SQL" stars="4" />
                             <Skills title="PHP" stars="2" />
-                            <Skills title="JQuery" stars="4" />
-                            <Skills title="JQuery" stars="4" />
-                            <Skills title="JQuery" stars="4" />
                         </ul>
                     </div>                        
                 </div>
@@ -130,17 +127,20 @@
                 <div class="row">
                     <div class="col-md-12">           
                         <hr>
-                        <h3 class="dl-title-color">Frameworks</h3>
+                        <h3 class="dl-title-color">Frameworks & Libraries</h3>
                     </div>
                 </div>
             
                 <div class="row justify-content-start dl-index-abilities-skills">
                     <div class="col-md-12">   
                         <ul class="dl-index-abilities-list row">
+                            <Skills title="Vue.js" stars="3" />
+                            <Skills title="React.js" stars="2" />
+                            <Skills title="Redux" stars="1" />
+                            <Skills title="Express.js" stars="2" />
+                            <Skills title="Node.js" stars="2" />
+                            <Skills title="Sails.js" stars="2" />
                             <Skills title="JQuery" stars="4" />
-                            <Skills title="Vue" stars="3" />
-                            <Skills title="React" stars="2" />
-                            <Skills title="Sails" stars="2" />
                             <Skills title="Bootstrap" stars="4" />
                             <Skills title="Spring Boot" stars="3" />
                             <Skills title="Thymeleaf" stars="3" />
@@ -286,143 +286,6 @@ export default {
       careers: [],
       projects: [],
       contacts: {},
-        // profile: {
-        //     role: 'Full Stack Web Developer',
-        //     description: "I'm passionate about technology. Throughout my life, I have been driven by my intellectual curiosity to find solutions to the most pressing problems. I’m an enthusiastic engineer who likes to develop software and solutions that tailor to different people's needs, mainly in the Web and Mobile development areas.",
-        //     profileImage:require('./assets/img/profile-image.jpg'),
-        //     age: 24,
-        //     firstName: 'Daniel',
-        //     middleName: 'Mota',
-        //     lastName: 'Leite',
-        //     location: 'Cardiff, Wales'
-        // }
-        // ,
-        // education: [{
-        //   university: 'Cardiff University',
-        //   date: 'September 2019 - September 2020',
-        //   course: 'MSc. Software Engineering',
-        //   modules: 'Web Applications, Agile Software Development, DevOps, User Experience',
-        //   location: 'Cardiff, Wales'
-        // },
-        // {
-        //   university: 'Polytechnic Institute of Porto',
-        //   date: 'September 2015 - November 2018',
-        //   course: 'BSc. Eletrical and Computer Engineering',
-        //   modules: 'Algorithmic and Programming, Development of Computational Applications, Computational Systems',
-        //   location: 'Porto Portugal'
-        // },
-        // {
-        //   university: 'The Hague University',
-        //   date: 'September 2017 - January 2018',
-        //   course: 'Embedded Systems Minor',
-        //   modules: 'Advanced Driver Programmming, DSP Software and Algorightms',
-        //   location: 'Delft, The Netherlands'
-        // },
-        //           {
-        //   university: 'Filipa de Vilhena High School',
-        //   date: 'Septmeber 2012 - September 2015',
-        //   course: 'Sciences and Technology',
-        //   subjects: 'Mathematics, Physics and Chemistry, Descriptive Geometry',
-        //   location: 'Porto Portugal'
-        // }
-        // ],
-        // careers: [
-        //   { title: 'ENVOLVE TECH', 
-        //     date: 'October 2020 - Present', 
-        //     role:'Junior Software Engineer', 
-        //     experiences:['Created new features for the chatbot (Python, JavaScript, Vue.js, HTML, CSS);', 
-        //     'Built modular and reusable components (Vue.js);', 
-        //     'Deployed and maintained projects in Google Cloud Platform (AppEngine, Compute Engine, BigQuery, Datastore);', 
-        //     'Used Agile best practices and the software development tool (Atlassian JIRA) to improve communication and organization within our team;'],
-        //     location: 'Cardiff, Wales',
-        //     website:'https://envolvetech.com'
-        //   },
-        //   { title: 'ALTRAN', 
-        //     date: 'July 2018 - September 2019', 
-        //     role:'Junior Consultant Engineer', 
-        //     experiences:['Created functionalities for the web application that accommodates new employees into the company, by using Java and Angular for the development process;',
-        //       'Build modern applications with Java, Spring Boot and MySQL;','Contributed to team meetings;',
-        //       'Conducted code peer reviews with other members of my team. - Participated in daily stand up meetings, led by our Scrum Master;'],
-        //     location: 'Porto, Portugal',
-        //     website:'https://www.altran.com'
-        //   },
-        //   { title: 'IPBRICK', 
-        //     date: 'March 2018 - July 2018', 
-        //     role:'Web Developer', 
-        //     experiences:['Created an updated version of the Management Interface of the client’s application using for the front end development HTML, CSS, JavaScript and for the backend development PHP and PostgreSQL;',
-        //       'Designed, developed, coded, tested and debugged system requirements for the purpose of conversions and development projects;',
-        //       'Participated in weekly meetings with the entire internship team;'],
-        //     location: 'Porto, Portugal',
-        //     website:'https://www.ipbrick.com'
-        //   },
-        //   { title: 'PARALAB', 
-        //     date: 'August 2017 - November 2017', 
-        //     role:'Web Developer', 
-        //     experiences:['Developed a dynamic website using for the front-end development HTML, CSS, JavaScript and for backend development PHP;', 
-        //       'Organized frequent meetings with the client to discuss the development of the project;'],
-        //     location: 'Porto, Portugal',
-        //     website:'https://www.paralab.pt'
-        //   },
-        // ],
-        // projects:[
-        //   {
-        //     projectUrl:'https://github.com/Danielvermel/academic-forum',
-        //     imagePath: require('./assets/img/project_7.jpg'),
-        //     title:'Academic Forum',
-        //     description:'This is a small prototype project for a website where academics can discuss books and articles.',
-        //     techStack:'"Sails.js, Javascript, HTML/CSS, PostgreSQL"' 
-        //   },
-        //   {
-        //     projectUrl:'https://danielvermel.github.io/quick-meals-app/', 
-        //     imagePath: require('./assets/img/project_6.jpg'),
-        //     title:'Quick Meals', 
-        //     description:'This was my first project developed during my React course. In here you can select some of the optional meals to your cart.',
-        //     techStack:'"React, Javascript, HTML/CSS"' 
-        //   },
-        //   {
-        //     projectUrl:'https://github.com/Danielvermel/hodge-bank-event', 
-        //     imagePath: require('./assets/img/project_5.jpg'),
-        //     title:'Hodge Bank Events',
-        //     description:'This was a Univeristy project developed by the Hodge Bank client. The goal of this project was to developed an event organiser platform where the customer could simply add new events for the members of the company.', 
-        //     techStack:'"HTML/CSS, Java, Spring Boot, JavaScript"' 
-        //   },
-        //   {
-        //     projectUrl:'https://code-time-app.herokuapp.com/',
-        //     imagePath: require('./assets/img/project_4.jpg'),
-        //     title:'Code Time',
-        //     description:'This was a project developed for Unievrsity where the goal was to create a simple website with a Java backend and MySQL database.',
-        //     techStack:'"HTML/CSS, JavaScript, Bootstrap, Java, MySQL"' 
-        //   },
-        //   {
-        //     projectUrl:'https://github.com/Danielvermel/booking-rooms',
-        //     imagePath: require('./assets/img/project_3.jpg'),
-        //     title:'Booking Rooms',
-        //     description:'This was my first project developed in Java. The goal of this project was to create a hypothetical booking systems for the National Sodtware Academy (NSA) for one of my subjects.',
-        //     techStack:'"Java"' 
-        //   },
-        //   {
-        //     projectUrl:'https://www.blocodenotas.com.pt',
-        //     imagePath: require('./assets/img/project_2.jpg'),
-        //     title:'Bloco de Notas',
-        //     description:'Bloco de Notas, a study center located in Porto.',
-        //     techStack:'"HTML/CSS, JavaScript, JQuery, Bootstrap"' 
-        //   },
-        //   {
-        //     projectUrl:'https://www.paralab-bio.pt',
-        //     imagePath: require('./assets/img/project_1.jpg'),
-        //     title:'Paralab Bio',
-        //     description:'This project was developed for a laboratory supplier company in Portugal.',
-        //     techStack:'"HTML/CSS, JavaScript, JQuery, Bootstrap"'
-        //   }
-        // ],
-        // contacts: {
-        //   email: 'daniel.f.m.leite@gmail.com',
-        //   phoneNumber: '(+44) 078 679 433 78',
-        //   phoneNumberExtra: '(+351) 918 907 910',
-        //   github: 'https://github.com/Danielvermel',
-        //   linkedin: 'https://linkedin.com/in/daniel-mota-leite',
-          
-        // }
     }
   },
   mounted(){
@@ -444,26 +307,6 @@ export default {
           // Handle Error Here
           console.error(err)
         }
-    
-
-    //   axios.get('../data.json')
-    //   .then((response) => {
-    //     this.profile = response.data.profile
-    //     this.education = response.data.education 
-    //     this.careers = response.data.careers
-    //     this.projects = response.data.projects
-    //     this.contacts = response.data.contacts
-    //   })
-    //   .catch((error) => {
-    //     if(error.response.data) {
-    //         console.error(error.response.data);
-    //     } else {
-    //         console.error(error);
-    //     }
-    //  })
-    //  .finally(()=>{
-    //      console.log('passa por aqui')
-    //  });
     }
   },
 
@@ -1014,6 +857,5 @@ a:hover{
     }
 
 }
-
 
 </style>

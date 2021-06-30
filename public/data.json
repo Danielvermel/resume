@@ -95,7 +95,7 @@
             "projectUrl":"https://github.com/Danielvermel/academic-forum",
             "imagePath": "project_7",
             "title":"Academic Forum",
-            "description":"his is a small prototype project for a website where academics can discuss books and articles.",
+            "description":"This is a small prototype project for a website where academics can discuss books and articles.",
             "techStack":"Sails.js, Javascript, HTML/CSS, PostgreSQL"
         },
         {
@@ -109,7 +109,7 @@
             "projectUrl":"https://github.com/Danielvermel/hodge-bank-event", 
             "imagePath": "project_5",
             "title":"Hodge Bank Events",
-            "description":"his was a Univeristy project developed by the Hodge Bank client. The goal of this project was to developed an event organiser platform where the customer could simply add new events for the members of the company.", 
+            "description":"This was a Univeristy project developed by the Hodge Bank client. The goal of this project was to developed an event organiser platform where the customer could simply add new events for the members of the company.", 
             "techStack":"HTML/CSS, Java, Spring Boot, JavaScript" 
         },
         {
