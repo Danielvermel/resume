@@ -122,7 +122,6 @@
                     </div>                        
                 </div>
             
-
               
                 <div class="row">
                     <div class="col-md-12">           
@@ -135,6 +134,7 @@
                     <div class="col-md-12">   
                         <ul class="dl-index-abilities-list row">
                             <Skills title="Vue.js" stars="3" />
+                            <Skills title="Nuxt.js" stars="1" />
                             <Skills title="React.js" stars="2" />
                             <Skills title="Redux" stars="1" />
                             <Skills title="Express.js" stars="2" />
@@ -149,7 +149,6 @@
                         </ul>
                     </div>   
                 </div>
-
 
           
               <div class="row">

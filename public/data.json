@@ -85,10 +85,17 @@
 
     "projects":[
         {
+            "projectUrl":"https://github.com/Danielvermel/house-saver-app",
+            "imagePath": "project_10",
+            "title": "House Saver",
+            "description": "In this project, you can rent a variety of different fire extinguishers to help save your house. The Goal of this project was to learn the Nuxt.js framework.",
+            "techStack": "HTML/CSS, Javascript, Nuxt.js, Vuex, Vue,js"
+        },
+        {
             "projectUrl":"https://github.com/Danielvermel/diy-projects-app",
             "imagePath": "project_9",
             "title": "DIY Projects",
-            "description": "This is a small prototype project developed in my free time where you can post different DIY projects you made",
+            "description": "This is a small prototype project developed in my free time where you can post different DIY projects you made.",
             "techStack": "HTML/CSS, Javascript, MongoDB, Express.js, React.js, Node.js, Material UI"
         },
         {
@@ -96,7 +103,7 @@
             "imagePath": "project_7",
             "title":"Academic Forum",
             "description":"This is a small prototype project for a website where academics can discuss books and articles.",
-            "techStack":"Sails.js, Javascript, HTML/CSS, PostgreSQL"
+            "techStack":"Sails.js, Vue.js, Javascript, HTML/CSS, PostgreSQL"
         },
         {
             "projectUrl":"https://danielvermel.github.io/quick-meals-app/", 
