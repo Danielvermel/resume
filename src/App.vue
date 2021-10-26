@@ -135,7 +135,7 @@
             <div class="col-md-12">
               <ul class="dl-index-abilities-list row">
                 <Skills title="Vue.js" stars="3" />
-                <Skills title="Nuxt.js" stars="1" />
+                <Skills title="Nuxt.js" stars="3" />
                 <Skills title="React.js" stars="2" />
                 <Skills title="Next.js" stars="1" />
                 <Skills title="Redux" stars="1" />

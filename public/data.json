@@ -42,8 +42,25 @@
   ],
   "careers": [
     {
+      "title": "NEXUSPOINT",
+      "date": "October 2021 - Present",
+      "role": "Frontend Developer",
+      "experiences": [
+        "Developing new user-facing features, using the latest front-end technologies;",
+        "Research and Development using Vue.js / Nuxt.js;",
+        "Converting digital designs to high standard responsive markup;",
+        "Building reusable code and libraries for future use;",
+        "Ensuring the technical feasibility of UI/UX designs;",
+        "Optimising sites for maximum speed and scalability;",
+        "Research and development CSS/HTML5 features, standards and techniques;",
+        "Analysing digital designs and providing technical build assistance to the designers and UX Lead;"
+      ],
+      "location": "Winsford, England",
+      "website": "https://www.nexuspoint.co.uk/"
+    },
+    {
       "title": "ENVOLVE TECH",
-      "date": "October 2020 - Present",
+      "date": "October 2020 - September 2021",
       "role": "Junior Software Engineer",
       "experiences": [
         "Created new features for the chatbot (Python, JavaScript, Vue.js, HTML, CSS);",
