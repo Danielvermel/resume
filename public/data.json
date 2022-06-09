@@ -1,13 +1,13 @@
 {
   "profile": {
-    "role": "Full Stack Web Developer",
+    "role": "Frontend Developer",
     "description": "I'm passionate about technology. Throughout my life, I have been driven by my intellectual curiosity to find solutions to the most pressing problems. I’m an enthusiastic engineer who likes to develop software and solutions that tailor to different people's needs, mainly in the Web and Mobile development areas.",
     "profileImage": "profile-image",
-    "age": 24,
+    "age": 25,
     "firstName": "Daniel",
     "middleName": "Mota",
     "lastName": "Leite",
-    "location": "Cardiff, Wales"
+    "location": "Liverpool, England"
   },
 
   "education": [
@@ -114,77 +114,76 @@
       "imagePath": "project_11",
       "title": "Company Website",
       "description": "This is a demo website prototype for a company with sections like features, pricing, and testimonials.",
-      "techStack": "HTML/CSS, Javascript, Next.js, React.js, Theme-UI"
+      "techStack": ["HTML/CSS", "Javascript", "Next.js", "React.js", "Theme-UI"]
     },
     {
       "projectUrl": "https://github.com/Danielvermel/house-saver-app",
       "imagePath": "project_10",
       "title": "House Saver",
       "description": "In this project, you can rent a variety of different fire extinguishers to help save your house. The Goal of this project was to learn the Nuxt.js framework.",
-      "techStack": "HTML/CSS, Javascript, Nuxt.js, Vuex, Vue.js"
+      "techStack": ["HTML/CSS", "Javascript", "Nuxt.js", "Vuex", "Vue.js"]
     },
     {
       "projectUrl": "https://github.com/Danielvermel/diy-projects-app",
       "imagePath": "project_9",
       "title": "DIY Projects",
       "description": "This is a small prototype project developed in my free time where you can post different DIY projects you made.",
-      "techStack": "HTML/CSS, Javascript, MongoDB, Express.js, React.js, Node.js, Material UI"
+      "techStack": ["HTML/CSS", "Javascript", "MongoDB", "Express.js", "React.js", "Node.js", "Material UI"]
     },
     {
       "projectUrl": "https://github.com/Danielvermel/academic-forum",
       "imagePath": "project_7",
       "title": "Academic Forum",
       "description": "This is a small prototype project for a website where academics can discuss books and articles.",
-      "techStack": "Sails.js, Vue.js, Javascript, HTML/CSS, PostgreSQL"
+      "techStack": ["Sails.js", "Vue.js", "Javascript", "HTML/CSS", "PostgreSQL"]
     },
     {
       "projectUrl": "https://danielvermel.github.io/quick-meals-app/",
       "imagePath": "project_6",
       "title": "Quick Meals",
       "description": "This was my first project developed during my React course. In here you can select some of the optional meals to your cart.",
-      "techStack": "React, Javascript, HTML/CSS"
+      "techStack": ["React", "Javascript", "HTML/CSS"]
     },
     {
       "projectUrl": "https://github.com/Danielvermel/hodge-bank-event",
       "imagePath": "project_5",
       "title": "Hodge Bank Events",
       "description": "This was a Univeristy project developed by the Hodge Bank client. The goal of this project was to developed an event organiser platform where the customer could simply add new events for the members of the company.",
-      "techStack": "HTML/CSS, Java, Spring Boot, JavaScript"
+      "techStack": ["HTML/CSS", "Java", "Spring Boot", "JavaScript"]
     },
     {
       "projectUrl": "https://code-time-app.herokuapp.com/",
       "imagePath": "project_4",
       "title": "Code Time",
       "description": "This was a project developed for Unievrsity where the goal was to create a simple website with a Java backend and MySQL database.",
-      "techStack": "HTML/CSS, JavaScript, Bootstrap, Java, MySQL"
+      "techStack": ["HTML/CSS", "JavaScript", "Bootstrap", "Java", "MySQL"]
     },
     {
       "projectUrl": "https://github.com/Danielvermel/booking-rooms",
       "imagePath": "project_3",
       "title": "Booking Rooms",
       "description": "This was my first project developed in Java. The goal of this project was to create a hypothetical booking systems for the National Sodtware Academy (NSA) for one of my subjects.",
-      "techStack": "Java"
+      "techStack": ["Java"]
     },
     {
       "projectUrl": "https://www.blocodenotas.com.pt",
       "imagePath": "project_2",
       "title": "Bloco de Notas",
       "description": "Bloco de Notas, a study center located in Porto.",
-      "techStack": "HTML/CSS, JavaScript, JQuery, Bootstrap"
+      "techStack": ["HTML/CSS", "JavaScript", "JQuery", "Bootstrap"]
     },
     {
       "projectUrl": "https://www.paralab-bio.pt",
       "imagePath": "project_1",
       "title": "Paralab Bio",
       "description": "This project was developed for a laboratory supplier company in Portugal.",
-      "techStack": "HTML/CSS, JavaScript, JQuery, Bootstrap"
+      "techStack": ["HTML/CSS", "JavaScript", "JQuery", "Bootstrap"]
     }
   ],
 
   "contacts": {
     "email": "daniel.f.m.leite@gmail.com",
     "phoneNumber": "(+44) 078 679 433 78",
-    "phoneNumberExtra": "(+351) 918 907 910",
     "github": "https://github.com/Danielvermel",
     "linkedin": "https://linkedin.com/in/daniel-mota-leite"
   }

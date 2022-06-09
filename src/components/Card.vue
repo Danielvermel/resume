@@ -1,4 +1,4 @@
-<template>
+<template class="dl-index-card">
   <div class="col-md-6 my-3">
     <a :href="projectUrl" class="text-white" target="_blank">
       <figure class="dl-index-project-effect">
@@ -9,9 +9,9 @@
           <p>{{ description }}</p>
 
           <p>
-            <strong> Tags:</strong>
-            <br />
-            "{{ techStack }}"
+            <strong>Tags:</strong>
+            <br>
+            <button v-for=" tag, index in techStack" :key="index">{{tag}}</button>
           </p>
         </figcaption>
       </figure>
@@ -56,20 +56,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
-.dl-index-projects-images {
-  height: 100%;
+.dl-index-card {
+  .dl-index-projects-images {
+    height: 100%;
+  }
+  
 }
 
-figcaption {
-  text-align: left;
-  padding: 20px 30px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-}
+
+
+
 
 .dl-index-project-effect {
   background-color: var(--dl-color);
@@ -88,40 +84,7 @@ figcaption {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
-
-  h3 {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 20px;
-    opacity: 0;
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-    
-    &::after {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background: #fff;
-      content: "";
-      -webkit-transition: -webkit-transform 0.35s;
-      transition: transform 0.35s;
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
-    }
-  }
-
-  p {
-    padding-top: 10px;
-    opacity: 0;
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-  }
-
-  &:hover{
+    &:hover{
 
     img {
       opacity: 0.05;
@@ -143,6 +106,52 @@ figcaption {
       transform: translate3d(0, 0, 0);
     }
   }
+  
+  figcaption {
+    text-align: left;
+    padding: 20px 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;  
+    h3 {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 20px;
+      opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        content: "";
+        -webkit-transition: -webkit-transform 0.35s;
+        transition: transform 0.35s;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+      }
+    }
+    p {
+      padding-top: 10px;
+      opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }
+  }
+
+
+
+
+
+
 }
 
 </style>

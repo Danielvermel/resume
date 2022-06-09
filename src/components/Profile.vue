@@ -1,13 +1,13 @@
-<template>
-  <div class="dl-index-profile-title-padding">
+<template class="dl-index-profile">
+  <div class="title-padding">
     <div class="row" itemscope itemtype="http://schema.org/Person">
-      <header class="dl-index-profile-title col-md-12">
+      <header class="title col-md-12">
         <h1 class="dl-title-color">Profile</h1>
-        <p class="dl-profile-sub" itemprop="jobTitle">{{ role }}</p>
-        <hr />
+        <p class="sub" itemprop="jobTitle">{{ role }}</p>
+        <hr>
       </header>
       <div class="col-md-4">
-        <div class="dl-index-profile-text">
+        <div class="text">
           <h3 class="dl-title-color">About me</h3>
           <p itemprop="description">
             {{ description }}
@@ -15,9 +15,9 @@
         </div>
       </div>
 
-      <div class="col-md-4 dl-index-profile-image-padding">
+      <div class="col-md-4 image-container">
         <img
-          class="dl-index-profile-image"
+          class="image"
           itemprop="image"
           :id="profileImage"
           :src="filePath"
@@ -26,17 +26,20 @@
       </div>
 
       <div class="col-md-4">
-        <div class="dl-index-profile-text dl-index-profile-details">
+        <div class="text details">
           <h3 class="dl-title-color">Details</h3>
           <p>
             <strong>Name:</strong>
+            <br>
             <span itemprop="givenName">{{ firstName }}</span>
-            <span itemprop="additionalName">{{ middleName }}</span>
             <span itemprop="familyName">{{ lastName }}</span>
-            <br />
-            <strong>Age:</strong> <span>{{ age }}</span>
-            <br />
+            <br>
+            <strong>Age:</strong> 
+            <br>
+            <span>{{ age }}</span>
+            <br>
             <strong>Location:</strong>
+            <br>
             <span itemprop="homeLocation">{{ location }}</span>
           </p>
         </div>
@@ -71,79 +74,80 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.dl-index-profile-title {
-  justify-content: center;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 30px;
-  text-decoration: none;
-  color: black;
-}
+<style scoped lang="scss">
+.dl-index-profile {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", 
+    "Helvetica Neue", sans-serif;
+  
+  .title {
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .text {
+    text-align: left;
+    font-size: 20px;
+  }
 
-.dl-index-profile-text {
-  text-align: left;
-  font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
+  .sub {
+    text-align: center;
+  }
 
-.dl-profile-sub {
-  text-align: center;
-}
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 10;
+  }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: white;
-  z-index: 10;
-}
+  .image-container {
+    margin: 20px 0px;
+    .image {
+      border-radius: 50%;
+      justify-content: center;
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: solid 3px var(--dl-color);
+      transform: scale(1.2);
+    }
+  }
 
-.dl-index-profile-image {
-  border-radius: 50%;
-  justify-content: center;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid 4px var(--dl-color);
-}
+  @media (max-width: 580px) {
+    .image {
+      width: 60%;
+    }
+  }
 
-.dl-index-profile-image-padding {
-  margin: 20px 0px;
-}
+  @media (min-width: 580px) {
+    .image {
+      width: 50%;
+    }
+  }
 
-@media (max-width: 580px) {
-  .dl-index-profile-image {
-    width: 60%;
+  @media (min-width: 768px) {
+    .image {
+      width: 80%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .image {
+      width: 60%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .image {
+      width: 60%;
+    }
   }
 }
 
-@media (min-width: 580px) {
-  .dl-index-profile-image {
-    width: 50%;
-  }
-}
-
-@media (min-width: 768px) {
-  .dl-index-profile-image {
-    width: 80%;
-  }
-}
-
-@media (min-width: 992px) {
-  .dl-index-profile-image {
-    width: 60%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .dl-index-profile-image {
-    width: 60%;
-  }
-}
 </style>

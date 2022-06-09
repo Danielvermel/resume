@@ -126,7 +126,7 @@
 
           <div class="row">
             <div class="col-md-12">
-              <hr />
+              <hr>
               <h3 class="dl-title-color">Frameworks & Libraries</h3>
             </div>
           </div>
@@ -236,7 +236,7 @@
               <p class="dl-quotes-white">
                 “If I had asked people what they wanted, they would have said
                 faster horses.”
-                <br />
+                <br>
                 ― Henry Ford
               </p>
               <hr class="bg-white w-100" />
@@ -245,10 +245,6 @@
                 <Contacts :data="contacts.email" className="far fa-envelope" />
                 <Contacts
                   :data="contacts.phoneNumber"
-                  className="fas fa-mobile-alt"
-                />
-                <Contacts
-                  :data="contacts.phoneNumberExtra"
                   className="fas fa-mobile-alt"
                 />
                 <Contacts :data="contacts.github" className="fab fa-github" />
