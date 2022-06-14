@@ -114,7 +114,9 @@
             <div class="col-md-12">
               <ul class="dl-index-abilities-list row">
                 <Skills title="HTML/CSS" stars="4" />
+                <Skills title="SCSS" stars="4" />
                 <Skills title="JavaScript" stars="4" />
+                <Skills title="TypeScript" stars="3" />
                 <Skills title="Python" stars="4" />
                 <Skills title="Java" stars="3" />
                 <Skills title="C#" stars="1" />
@@ -134,7 +136,7 @@
           <div class="row justify-content-start dl-index-abilities-skills">
             <div class="col-md-12">
               <ul class="dl-index-abilities-list row">
-                <Skills title="Vue.js" stars="3" />
+                <Skills title="Vue.js" stars="4" />
                 <Skills title="Nuxt.js" stars="3" />
                 <Skills title="React.js" stars="2" />
                 <Skills title="Next.js" stars="1" />
@@ -391,10 +393,10 @@ body {
 
 /* ----- Start Title ----- */
 
-@media (max-width: 771px) {
+@media (max-width: 420px) {
   .dl-index-background {
     min-height: 800px;
-    background-position-y: 0px;
+    background-position-y: -150px;
   }
 
   .dl-index-background-text-padding {
@@ -411,7 +413,6 @@ body {
   }
 }
 
-@media (min-width: 920px) {
   .dl-index-background {
     background-image: url("./assets/img/background-image-1.jpg");
     background-position-y: -150px;
@@ -514,7 +515,6 @@ body {
       top: 0px;
     }
   }
-}
 
 @-webkit-keyframes texto-inicial-1 {
   from {

@@ -1,13 +1,13 @@
 <template class="dl-index-profile">
   <div class="title-padding">
     <div class="row" itemscope itemtype="http://schema.org/Person">
-      <header class="title col-md-12">
+      <header class="title col-sm-12">
         <h1 class="dl-title-color">Profile</h1>
         <p class="sub" itemprop="jobTitle">{{ role }}</p>
         <hr>
       </header>
       <div class="dl-profile-container mt-4">
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
           <div class="text">
             <h3 class="dl-title-color">About me</h3>
             <p itemprop="description">
@@ -16,7 +16,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 image-container">
+        <div class="col-md-4 col-sm-12 image-container">
           <img
             class="image"
             itemprop="image"
@@ -26,7 +26,7 @@
           />
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
           <div class="text details">
             <h3 class="dl-title-color">Details</h3>
             <p>
@@ -167,6 +167,7 @@ export default {
   .dl-profile-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     .text {
       text-align: left;
       font-size: 20px;
