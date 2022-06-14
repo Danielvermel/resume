@@ -61,22 +61,6 @@
               ― John Keats
             </p>
             <hr />
-            <h3 class="dl-title-color">Education</h3>
-
-            <Experience
-              v-for="(data, index) in education"
-              :key="index"
-              :title="data.university"
-              :date="data.date"
-              :course="data.course"
-              :subjects="data.subjects"
-              :modules="data.modules"
-              :location="data.location"
-            />
-          </article>
-
-          <hr />
-          <article>
             <h3 class="dl-title-color">Careers</h3>
 
             <Experience
@@ -88,6 +72,22 @@
               :experiences="data.experiences"
               :location="data.location"
               :website="data.website"
+            />
+          </article>
+
+          <hr />
+          <article>
+            <h3 class="dl-title-color">Education</h3>
+
+            <Experience
+              v-for="(data, index) in education"
+              :key="index"
+              :title="data.university"
+              :date="data.date"
+              :course="data.course"
+              :subjects="data.subjects"
+              :modules="data.modules"
+              :location="data.location"
             />
           </article>
         </div>

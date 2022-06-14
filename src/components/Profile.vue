@@ -36,7 +36,11 @@
             <br>
             <strong>Age:</strong> 
             <br>
-            <span>{{ age }}</span>
+            <span>{{ getAge(age) }}</span>
+            <br>
+            <strong>Experience:</strong> 
+            <br>
+            <span>{{ getExperience()}}</span>
             <br>
             <strong>Location:</strong>
             <br>
@@ -55,7 +59,10 @@ export default {
     title: String,
     role: String,
     description: String,
-    age: Number,
+    age: {
+      default: '19970509',
+      type: String
+    },
     firstName: String,
     middleName: String,
     lastName: String,
@@ -65,11 +72,63 @@ export default {
   data() {
     return {
       filePath: "",
+      experience: 0
     };
-  },
-
+  },  
   updated() {
     this.filePath = require(`@/assets/img/${this.profileImage}.jpg`);
+  },
+  methods: {
+    getAge(dob) {
+      let year = Number(dob.substr(0, 4));
+      let month = Number(dob.substr(4, 2)) - 1;
+      let day = Number(dob.substr(6, 2));
+      let today = new Date();
+      let age = today.getFullYear() - year;
+      if (today.getMonth() < month || (today.getMonth() == month && today.getDate() < day)) {
+        age--;
+      }
+      return age;
+    },
+    
+    getExperience() {
+      
+      let nowDate =  Date.now();
+      
+      let firstJob = this.dateDiffInYears('20170801','20171101') // Paralab
+      let secondJob = this.dateDiffInYears('20180301','20180701') // IPBRICK
+      let thirdJob = this.dateDiffInYears('20180701','20190901') // Altran
+      let fourthJob = this.dateDiffInYears('20201001','20210901') // Envolve tech
+      let fifthJob = this.dateDiffInYears('20211001','20220101') // Nexus Point
+      
+      let timeDiff = 1000 * 60 * 60 * 24 * 7 * 4.3;
+      let lastJobDate = new Date(2022,1,1).getTime();
+      let sixthJob = Math.floor((nowDate - lastJobDate) / timeDiff); // BR-DGE
+      
+      let monthsOfExperience = firstJob + secondJob + thirdJob + fourthJob + fifthJob + sixthJob;
+      let yearsOfExperience = Math.trunc(monthsOfExperience / 12);
+      let months = Math.round(((monthsOfExperience % 12) * 12 ) / 10);
+      console.debug(yearsOfExperience)
+      return  `${yearsOfExperience} years and ${months} months`;
+      
+    },
+    
+    dateDiffInYears(oldDate, newDate) {
+      let oldYearDate = Number(oldDate.substr(0, 4));
+      let oldMonthDate = Number(oldDate.substr(4, 2)) - 1;
+      let oldDayDate = Number(oldDate.substr(6, 2));
+      let d1 = new Date(oldYearDate,oldMonthDate,oldDayDate).getTime();
+      
+      let newYearDate = Number(newDate.substr(0, 4));
+      let newMonthDate = Number(newDate.substr(4, 2)) - 1;
+      let newDayDate = Number(newDate.substr(6, 2));
+      let d2 = new Date(newYearDate,newMonthDate,newDayDate).getTime();
+      
+      let timeDiff = 1000 * 60 * 60 * 24 * 7 * 4.3;
+      let secDiff = Math.floor((d2- d1) / timeDiff);
+      
+      return secDiff
+    }
   },
 };
 </script>
@@ -114,7 +173,7 @@ export default {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      border: solid 3px var(--dl-color);
+      border: solid 3px let(--dl-color);
       transform: scale(1.2);
     }
   }

@@ -25,9 +25,15 @@ If there is a bugfix change use:
 - Fixed
 - Security
 
+## [1.1.0] 2022-06-14
 
+### [1.1.0] Add
+
+- Add time of experience and age;
 
 ## [1.0.1] 2022-06-09
 
 ### [1.0.1] Fixed
+
+- Fix some issues;
 

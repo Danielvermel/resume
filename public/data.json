@@ -3,7 +3,7 @@
     "role": "Frontend Developer",
     "description": "I'm passionate about technology. Throughout my life, I have been driven by my intellectual curiosity to find solutions to the most pressing problems. I’m an enthusiastic engineer who likes to develop software and solutions that tailor to different people's needs, mainly in the Web and Mobile development areas.",
     "profileImage": "profile-image",
-    "age": 25,
+    "age": "19970509",
     "firstName": "Daniel",
     "middleName": "Mota",
     "lastName": "Leite",
@@ -42,8 +42,21 @@
   ],
   "careers": [
     {
-      "title": "NEXUSPOINT",
-      "date": "October 2021 - Present",
+      "title": "BR-DGE",
+      "date": "January 2022 - Present",
+      "role": "Frontend Developer",
+      "experiences": [
+        "Helped to develop and implemented the new Portal's redesign (Vue.js, javaScript, HTML, SCSS);",
+        "Impact on the direction of the Portal's features and looks;",
+        "Improved and simplified the UI and UX of the Portal;", 
+        "Optimise code and introduce reusable components;"
+      ],
+      "location": "Edinburgh, Scotland",
+      "website": "https://br-dge.to/"
+    },
+    {
+      "title": "NEXUS POINT",
+      "date": "October 2021 - January 2022",
       "role": "Frontend Developer",
       "experiences": [
         "Developing new user-facing features, using the latest front-end technologies;",
