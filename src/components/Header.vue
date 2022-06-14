@@ -249,4 +249,16 @@ a:hover {
 .wrapper-header {
   height: 0px;
 }
+
+@media (min-width: 726px) {
+  .wrapper-header{
+    display: block;
+  }
+}
+
+@media (max-width: 726px) {
+  .wrapper-header {
+    display: none;
+  }
+}
 </style>

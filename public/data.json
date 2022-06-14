@@ -46,10 +46,10 @@
       "date": "January 2022 - Present",
       "role": "Frontend Developer",
       "experiences": [
-        "Helped to develop and implemented the new Portal's redesign (Vue.js, javaScript, HTML, SCSS);",
+        "Helped to develop and implemented the new Portal's redesign (Vue.js, TypeScript, HTML, SCSS);",
         "Impact on the direction of the Portal's features and looks;",
         "Improved and simplified the UI and UX of the Portal;", 
-        "Optimise code and introduce reusable components;"
+        "Optimized code and introduced new reusable components;"
       ],
       "location": "Edinburgh, Scotland",
       "website": "https://br-dge.to/"

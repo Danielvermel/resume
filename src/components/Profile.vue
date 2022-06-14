@@ -6,48 +6,52 @@
         <p class="sub" itemprop="jobTitle">{{ role }}</p>
         <hr>
       </header>
-      <div class="col-md-4">
-        <div class="text">
-          <h3 class="dl-title-color">About me</h3>
-          <p itemprop="description">
-            {{ description }}
-          </p>
+      <div class="dl-profile-container mt-4">
+        <div class="col-md-4">
+          <div class="text">
+            <h3 class="dl-title-color">About me</h3>
+            <p itemprop="description">
+              {{ description }}
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div class="col-md-4 image-container">
-        <img
-          class="image"
-          itemprop="image"
-          :id="profileImage"
-          :src="filePath"
-          alt="profile image"
-        />
-      </div>
-
-      <div class="col-md-4">
-        <div class="text details">
-          <h3 class="dl-title-color">Details</h3>
-          <p>
-            <strong>Name:</strong>
-            <br>
-            <span itemprop="givenName">{{ firstName }}</span>
-            <span itemprop="familyName">{{ lastName }}</span>
-            <br>
-            <strong>Age:</strong> 
-            <br>
-            <span>{{ getAge(age) }}</span>
-            <br>
-            <strong>Experience:</strong> 
-            <br>
-            <span>{{ getExperience()}}</span>
-            <br>
-            <strong>Location:</strong>
-            <br>
-            <span itemprop="homeLocation">{{ location }}</span>
-          </p>
+        <div class="col-md-4 image-container">
+          <img
+            class="image"
+            itemprop="image"
+            :id="profileImage"
+            :src="filePath"
+            alt="profile image"
+          />
         </div>
+
+        <div class="col-md-4">
+          <div class="text details">
+            <h3 class="dl-title-color">Details</h3>
+            <p>
+              <strong>Name:</strong>
+              <br>
+              <span itemprop="givenName">{{ firstName }}</span>
+              <span itemprop="familyName" class="ml-1">{{ lastName }}</span>
+              <br>
+              <strong>Age:</strong> 
+              <br>
+              <span>{{ getAge(age) }}</span>
+              <br>
+              <strong>Experience:</strong> 
+              <br>
+              <span>{{ getExperience()}}</span>
+              <br>
+              <strong>Location:</strong>
+              <br>
+              <span itemprop="homeLocation">{{ location }}</span>
+            </p>
+          </div>
+        </div>
+        
       </div>
+        
     </div>
   </div>
 </template>
@@ -108,7 +112,6 @@ export default {
       let monthsOfExperience = firstJob + secondJob + thirdJob + fourthJob + fifthJob + sixthJob;
       let yearsOfExperience = Math.trunc(monthsOfExperience / 12);
       let months = Math.round(((monthsOfExperience % 12) * 12 ) / 10);
-      console.debug(yearsOfExperience)
       return  `${yearsOfExperience} years and ${months} months`;
       
     },
@@ -146,10 +149,7 @@ export default {
     color: black;
   }
   
-  .text {
-    text-align: left;
-    font-size: 20px;
-  }
+
 
   .sub {
     text-align: center;
@@ -164,18 +164,27 @@ export default {
     z-index: 10;
   }
 
-  .image-container {
-    margin: 20px 0px;
-    .image {
-      border-radius: 50%;
-      justify-content: center;
-      text-align: center;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      border: solid 3px let(--dl-color);
-      transform: scale(1.2);
+  .dl-profile-container {
+    display: flex;
+    flex-direction: row;
+    .text {
+      text-align: left;
+      font-size: 20px;
     }
+    .image-container {
+      margin: 20px 0px;
+      .image {
+        border-radius: 50%;
+        justify-content: center;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid 3px let(--dl-color);
+        transform: scale(1.2);
+      }
+    }
+
   }
 
   @media (max-width: 580px) {

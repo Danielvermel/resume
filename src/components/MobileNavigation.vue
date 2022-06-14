@@ -110,7 +110,6 @@ export default {
 
         let mobileNav = document.querySelector(".dl-index-mobile-navigation");
         let currentScrollPos = window.pageYOffset;
-        console.log(prevScrollpos + " < " + currentScrollPos);
         /* ----- Hide SideNav on Scroll down ----- */
         if (
           prevScrollpos < currentScrollPos ||
@@ -137,7 +136,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .dl-logo-mobile {
   position: absolute;

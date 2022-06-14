@@ -25,6 +25,12 @@ If there is a bugfix change use:
 - Fixed
 - Security
 
+## [1.1.1] 2022-06-14
+
+### [1.1.1] Changed
+
+- Update content;
+
 ## [1.1.0] 2022-06-14
 
 ### [1.1.0] Add

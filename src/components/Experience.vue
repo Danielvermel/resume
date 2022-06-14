@@ -54,8 +54,7 @@ export default {
       default: ''
     },
       experiences: {
-      type: String,
-      default: ''
+      type: Array
     },
       location: {
       type: String,

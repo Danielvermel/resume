@@ -40,8 +40,7 @@ export default {
       default: ''
     },
     techStack: {
-      type: String,
-      default: ''
+      type: Array
     },
   },
   data() {
