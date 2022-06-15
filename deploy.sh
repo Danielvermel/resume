@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+# abort on errors
+set -e
+# build
+npm run build
+# navigate into the build output directory
+# if you are deploying to a custom domain
+# echo 'www.example.com' > CNAME
+git add dist -f
+git commit -m 'deploy'
+git push -f git@github.com:Danielvermel/resume.git master:gh-pages

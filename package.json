@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "bash deploy.sh"
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
@@ -28,7 +28,8 @@
     "eslint-plugin-vue": "^7.0.0",
     "node-sass": "^6.0.1",
     "prettier": "2.3.2",
-    "sass-loader": "^10.2.0"
+    "sass-loader": "^10.2.0",
+    "execa": "latest"
   },
   "eslintConfig": {
     "root": true,
