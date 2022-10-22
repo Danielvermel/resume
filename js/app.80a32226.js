@@ -1460,19 +1460,19 @@
       },
       26: function (e, t, i) {
         var s = {
-          '/background-image-1.jpg': 970,
-          '/profile-image.jpg': 760,
-          '/project_1.jpg': 195,
-          '/project_10.jpg': 437,
-          '/project_11.jpg': 68,
-          '/project_2.jpg': 455,
-          '/project_3.jpg': 140,
-          '/project_4.jpg': 502,
-          '/project_5.jpg': 966,
-          '/project_6.jpg': 275,
-          '/project_7.jpg': 194,
-          '/project_8.jpg': 841,
-          '/project_9.jpg': 394,
+          './background-image-1.jpg': 970,
+          './profile-image.jpg': 760,
+          './project_1.jpg': 195,
+          './project_10.jpg': 437,
+          './project_11.jpg': 68,
+          './project_2.jpg': 455,
+          './project_3.jpg': 140,
+          './project_4.jpg': 502,
+          './project_5.jpg': 966,
+          './project_6.jpg': 275,
+          './project_7.jpg': 194,
+          './project_8.jpg': 841,
+          './project_9.jpg': 394,
         };
         function a(e) {
           var t = n(e);
