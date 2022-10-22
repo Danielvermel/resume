@@ -554,7 +554,7 @@
               return { filePath: '' };
             },
             created() {
-              this.filePath = i(26)(`../img/${this.imagePath}.jpg`);
+              this.filePath = i(26)(`./${this.imagePath}.jpg`);
             },
           },
           te = i(744);
@@ -874,7 +874,9 @@
             return { filePath: '', experience: 0 };
           },
           updated() {
-            this.filePath = i(26)(`./${this.profileImage}.jpg`);
+            this.filePath = i(26)(
+              `https://danielvermel.github.io/resume/img/${this.profileImage}.jpg`
+            );
           },
           methods: {
             getAge(e) {
