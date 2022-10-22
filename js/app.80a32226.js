@@ -554,7 +554,7 @@
               return { filePath: '' };
             },
             created() {
-              this.filePath = i(26)(`./${this.imagePath}.jpg`);
+              this.filePath = i(26)(`../img/${this.imagePath}.jpg`);
             },
           },
           te = i(744);
@@ -1460,8 +1460,8 @@
       },
       26: function (e, t, i) {
         var s = {
-          './danielvermel.github.io/resume/img/background-image-1.jpg': 970,
-          './danielvermel.github.io/resume/img/profile-image.jpg': 760,
+          './background-image-1.jpg': 970,
+          './profile-image.jpg': 760,
           './project_1.jpg': 195,
           './project_10.jpg': 437,
           './project_11.jpg': 68,
