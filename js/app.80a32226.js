@@ -1494,19 +1494,19 @@
       },
       970: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/background-image-1.b1dfc7d6.jpg';
+        e.exports = i.p + './resume/img/background-image-1.b1dfc7d6.jpg';
       },
       760: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/profile-image.04494bf6.jpg';
+        e.exports = i.p + './resume/img/profile-image.04494bf6.jpg';
       },
       195: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/project_1.cff8bfb4.jpg';
+        e.exports = i.p + './resume/img/project_1.cff8bfb4.jpg';
       },
       437: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/project_10.9cab951b.jpg';
+        e.exports = i.p + './resume/img/project_10.9cab951b.jpg';
       },
       68: function (e, t, i) {
         'use strict';
@@ -1514,35 +1514,35 @@
       },
       455: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/project_2.2b7f2796.jpg';
+        e.exports = i.p + './resume/img/project_2.2b7f2796.jpg';
       },
       140: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/project_3.f13182b0.jpg';
+        e.exports = i.p + './resume/img/project_3.f13182b0.jpg';
       },
       502: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/project_4.f53f3c37.jpg';
+        e.exports = i.p + './resume/img/project_4.f53f3c37.jpg';
       },
       966: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/project_5.c7197446.jpg';
+        e.exports = i.p + './resume/img/project_5.c7197446.jpg';
       },
       275: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/project_6.791730be.jpg';
+        e.exports = i.p + './resume/img/project_6.791730be.jpg';
       },
       194: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/project_7.2bb745e3.jpg';
+        e.exports = i.p + './resume/img/project_7.2bb745e3.jpg';
       },
       841: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/project_8.98633999.jpg';
+        e.exports = i.p + './resume/img/project_8.98633999.jpg';
       },
       394: function (e, t, i) {
         'use strict';
-        e.exports = i.p + './img/project_9.a52bcc7c.jpg';
+        e.exports = i.p + './resume/img/project_9.a52bcc7c.jpg';
       },
     },
     t = {};
