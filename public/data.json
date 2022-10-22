@@ -49,7 +49,10 @@
         "Helped to develop and implemented the new Portal's redesign (Vue.js, TypeScript, HTML, SCSS);",
         "Impact on the direction of the Portal's features and looks;",
         "Improved and simplified the UI and UX of the Portal;", 
-        "Optimized code and introduced new reusable components;"
+        "Optimized code and introduced new reusable components;",
+        "Helped shape the technical direction and the improvements of the tools and processes used;",
+        "Troubleshooted and resolved code defects;",
+        "Created an eCommerce website to demo a company's product (Next.js, React.js, Cypress, Jest);"
       ],
       "location": "Edinburgh, Scotland",
       "website": "https://br-dge.to/"
@@ -89,9 +92,11 @@
       "date": "July 2018 - September 2019",
       "role": "Junior Consultant Engineer",
       "experiences": [
-        "Created functionalities for the web application that accommodates new employees into the company, by using Java and Angular for the development process;",
-        "Built modern applications with Java, Spring Boot and MySQL;','Contributed to team meetings;",
-        "Conducted code peer reviews with other members of my team. - Participated in daily stand up meetings, led by our Scrum Master;"
+        "Created functionalities for the web application that accommodates new employees into the company (JavaScript, React.js, HTML, CSS);",
+        "Built modern applications(Java Spring Boot, MySQL);",
+        "Contributed to team meetings;",
+        "Conducted code peer reviews with other members of my team.",
+        "Participated in daily stand up meetings, led by our Scrum Master;"
       ],
       "location": "Porto, Portugal",
       "website": "https://www.altran.com"

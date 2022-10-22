@@ -2,6 +2,7 @@
   "name": "web-resume",
   "version": "1.1.1",
   "private": true,
+  "homepage" : "https://danielvermel.github.io/resume/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -18,18 +19,18 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.4",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "^4.5.0",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
+    "eslint": "^7.5.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-vue": "^7.0.0",
-    "node-sass": "^6.0.1",
+    "execa": "latest",
+    "node-sass": "^7.0.3",
     "prettier": "2.3.2",
-    "sass-loader": "^10.2.0",
-    "execa": "latest"
+    "sass-loader": "^10.2.0"
   },
   "eslintConfig": {
     "root": true,
@@ -43,7 +44,8 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+    }
   },
   "browserslist": [
     "> 1%",
