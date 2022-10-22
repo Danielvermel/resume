@@ -1461,7 +1461,7 @@
       26: function (e, t, i) {
         var s = {
           './background-image-1.jpg': 970,
-          'https://danielvermel.github.io/resume/img/profile-image.jpg': 760,
+          '/profile-image.jpg': 760,
           './project_1.jpg': 195,
           './project_10.jpg': 437,
           './project_11.jpg': 68,
@@ -1498,7 +1498,9 @@
       },
       760: function (e, t, i) {
         'use strict';
-        e.exports = i.p + 'profile-image.04494bf6.jpg';
+        e.exports =
+          i.p +
+          'https://danielvermel.github.io/resume/img/profile-image.04494bf6.jpg';
       },
       195: function (e, t, i) {
         'use strict';
